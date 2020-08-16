@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<style>
+	table, th, td {
+	  border: 1px solid black;
+	}
+</style>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>This is a title</title>
+	</head>
+	
+	<body>
+		<div class="topnav" id="navbar"></div>
+		<script src="js/nav-bar.js"></script>
+
+		<table cellpadding="7"cellspacing="0">
+			<thead>
+				<tr><th colspan='3'>Available items</th></tr>
+				<tr><th>ID</th><th>Name</th><th>Price ($)</th></tr>
+			</thead>
+
+			<tbody id="itemsTableBody"></tbody>
+			<tfoot></tfoot>
+		</table>
+
+		<script type="module" src="js/items.js"></script>
+		<script type="module" src="js/cookies.js"></script>
+
+	</body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<style>
+	table, th, td {
+	  border: 1px solid black;
+	}
+</style>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>This is a title</title>
+	</head>
+	
+	<body>
+		<div class="topnav" id="navbar"></div>
+		<script src="js/nav-bar.js"></script>
+		<!--
+		<table id="itemsTable">
+			<tr><th colspan='2'>Available items</th></tr>
+			<tr><th>ID</th> <th>Name</th></tr>
+		</table>
+		-->
+
+		<table cellpadding="7" cellspacing="0">
+			<thead>
+				<tr><th colspan='5'>Your shopping cart</th></tr>
+				<tr><th>ID</th><th>Name</th><th>Individual price ($)</th> <th>Quantity</th> <th>Total</th></tr>
+			</thead>
+
+			<tbody id="itemsTableBody"></tbody>
+			<tfoot id="itemsTableFoot"></tfoot>
+		</table>
+
+		<script type="module" src="js/cart.js"></script>
+		<script type="module" src="js/cookies.js"></script>
+
+		 <script type="module" src="js/checkout.js"></script>
+		<button style="margin-top:20px;" id="buynowbutton">Buy now</button>
+		
+		<div id="success"></div>
+
+	</body>
+</html>
+
