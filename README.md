@@ -19,7 +19,3 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 Download the project, to run from the command line execute `mvn spring-boot:run`, then open `localhost:8080` in a browser, explore the website with the top navigation bar
-
-
-## License
-Distributed under the MIT License.
